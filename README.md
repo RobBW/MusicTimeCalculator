@@ -1,11 +1,11 @@
-# TimeCalc Pro: Music Programming Utility
+# TimeCalc: Music Programming Utility
 
-**TimeCalc Pro** is a precision duration calculator designed for music producers, sequence programmers, and studio engineers. It simplifies the process of calculating track lengths, set times, and cue timings by using a specialized "Minute.Second" arithmetic.
+**TimeCalc** is a precision duration calculator designed for music producers, sequence programmers, and studio engineers. It simplifies the process of calculating track lengths, set times, and cue timings by using a specialized "Minute.Second" arithmetic.
 
 
 
 ## 🎹 The Core Rule
-Unlike standard calculators, TimeCalc Pro treats decimals as a separator for seconds (Base 60):
+Unlike standard calculators, TimeCalc treats decimals as a separator for seconds (Base 60):
 * **Before the Decimal:** Minutes.
 * **After the Decimal:** Seconds.
 * **The Logic:** Adding `0.20` to `1.50` results in `2.10` (2 minutes, 10 seconds), whereas a standard calculator would incorrectly give `1.70`.
