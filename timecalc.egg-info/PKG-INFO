@@ -2,10 +2,14 @@ Metadata-Version: 2.4
 Name: timecalc
 Version: 1.1.0
 Summary: Music programming time arithmetic tool with history logging.
+License-Expression: MIT
 Requires-Python: >=3.11
 Description-Content-Type: text/markdown
+License-File: LICENSE.txt
 Requires-Dist: customtkinter>=5.2.0
 Requires-Dist: darkdetect>=0.8.0
+Requires-Dist: pytest>=9.0.2
+Dynamic: license-file
 
 # TimeCalc Pro: Music Programming Utility
 

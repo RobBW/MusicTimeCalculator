@@ -2,12 +2,14 @@
 name = "timecalc"
 version = "1.1.0"
 description = "Music programming time arithmetic tool with history logging."
+license = "MIT"
 readme = "README.md"
 requires-python = ">=3.11"
 # Uncomment these so uv and PyInstaller can find them
 dependencies = [
     "customtkinter>=5.2.0",
     "darkdetect>=0.8.0",
+    "pytest>=9.0.2",
 ]
 
 [dependency-groups]
