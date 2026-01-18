@@ -8,13 +8,13 @@ requires-python = ">=3.11"
 # Uncomment these so uv and PyInstaller can find them
 dependencies = [
     "customtkinter>=5.2.0",
-    "darkdetect>=0.8.0",
-    "pytest>=9.0.2",
+    "darkdetect>=0.8.0", 
 ]
 
 [dependency-groups]
 dev = [
     "pyinstaller>=6.11.0",
+    "pytest>=9.0.2",
 ]
 
 [build-system]

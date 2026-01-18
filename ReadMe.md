@@ -60,3 +60,6 @@ Your standalone TimeCalc.app will be located in the dist/ folder. You can now mo
 * **Auto-Focus:** The application automatically focuses on the input field upon launch and after every calculation, allowing for continuous hands-on-keyboard typing.
 * **Security:** Because the generated `.app` is unsigned, macOS Gatekeeper may block it. To bypass this, **Right-Click > Open** the application the first time you run it.
 * **Reset:** The **Reset** button clears both the running total and the session log. Note that this action is permanent and cannot be undone via `Cmd+Z`.
+
+## 👏🏼 Comment & Acknowlegement.
+* This app was quite a climb up the learning curve. It is a first attempt at a full Github managed project developed using Gemini, VSCode and GitHub Copilot extension. I am grateful to the developers of these tools. They have removed many of the major barriers to developing and testing ideas in Python.

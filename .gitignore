@@ -5,7 +5,10 @@ __pycache__/
 *$py.class
 .python-version
 
-# --- Build / Packaging (py2app) ---
+# Py Installer
+TimeCalc.spec
+
+# --- Build / Packaging (pyinstaller) ---
 build/
 dist/
 *.egg-info/
