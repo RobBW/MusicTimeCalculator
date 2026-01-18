@@ -1,0 +1,38 @@
+name: Build TimeCalc App (PyInstaller)
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set up Python
+        run: uv python install 3.11
+
+      - name: Sync Dependencies
+        run: uv sync --group dev
+
+      - name: Build with PyInstaller
+        run: |
+          # Use uv run to ensure we use the environment created in the sync step
+          uv run pyinstaller --noconfirm --onefile --windowed --name "TimeCalc" \
+          --collect-all "customtkinter" \
+          TimeCalc.py
+
+      - name: Compress App
+        run: |
+          cd dist
+          zip -r TimeCalc-macOS.zip TimeCalc.app
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: TimeCalc-macOS-Build
+          path: dist/TimeCalc-macOS.zip

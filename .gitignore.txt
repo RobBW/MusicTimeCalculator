@@ -1,0 +1,23 @@
+# --- Python / uv ---
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# --- Build / Packaging (py2app) ---
+build/
+dist/
+*.egg-info/
+
+# --- macOS System Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.swp

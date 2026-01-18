@@ -1,0 +1,8 @@
+README.md
+TimeCalc.py
+pyproject.toml
+timecalc.egg-info/PKG-INFO
+timecalc.egg-info/SOURCES.txt
+timecalc.egg-info/dependency_links.txt
+timecalc.egg-info/requires.txt
+timecalc.egg-info/top_level.txt
